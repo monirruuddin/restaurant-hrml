@@ -1,0 +1,166 @@
+@media(max-width:575px) {
+    .icon i {
+        color: red;
+    }
+
+    #mynav ul li a {
+        padding: 6px 0px;
+    }
+
+    #mynav {
+        padding-top: 15px;
+        text-align: center
+    }
+
+    .banner_bttm_item {
+        margin: 20px 0;
+    }
+
+    .banner_content {
+        padding: 90px 0;
+
+    }
+
+
+    .banner_content h1 {
+        font-size: 45px;
+        margin: 15px 0;
+
+    }
+
+    .banner_content h3 {
+        font-family: 'Prata', serif;
+        margin-bottom: 40px;
+        font-size: 14px;
+    }
+
+    .banner_content a {
+        padding: 16px 20px;
+        font-family: 'Roboto', sans-serif;
+        color: #fff;
+        text-transform: capitalize;
+    }
+
+    .common_head {
+        margin-top: 40px;
+    }
+
+
+    .common_head h3 {
+        font-size: 25px;
+
+
+    }
+
+    .common_head h2 {
+        font-size: 30px;
+
+
+    }
+
+    .common_head p {
+        font-size: 14px;
+    }
+
+    .card_weeks {
+        margin: 20px 0;
+    }
+
+
+
+}
+
+@media(min-width:576px) and (max-width:767px) {
+    .icon i {
+        color: red;
+    }
+
+    #mynav ul li a {
+        padding: 6px 0px;
+    }
+
+    #mynav {
+        padding-top: 15px;
+        text-align: center
+    }
+
+    .banner_bttm_item {
+        margin: 20px 0;
+    }
+
+    .banner_content {
+        padding: 120px 0;
+
+    }
+
+
+    .banner_content h1 {
+        font-size: 50px;
+    }
+
+    .banner_content h3 {
+
+        font-size: 16px;
+    }
+
+    .banner_content a {}
+
+    .common_head {
+        margin-top: 60px;
+    }
+
+
+    .common_head h3 {
+        font-size: 30px;
+
+
+    }
+
+    .common_head h2 {
+        font-size: 40px;
+
+
+    }
+
+    .common_head p {
+        font-size: 16px;
+    }
+
+    .card_weeks {
+        margin: 20px 0;
+    }
+
+
+
+}
+
+@media(min-width:768px) and (max-width:991px) {
+
+    .icon i {
+        color: red;
+    }
+
+    .banner_bttm_item {
+        margin: 20px 0;
+    }
+
+    .banner_content {
+        padding: 130px 0;
+
+    }
+
+    #mynav ul li a {
+        padding: 6px 0px;
+    }
+
+    #mynav {
+        padding-top: 15px;
+        text-align: center
+    }
+    .card_weeks {
+        margin: 20px 0;
+    }
+
+}
+
+@media(min-width:992px) and (max-width:1199px) {}

@@ -1,0 +1,819 @@
+/*
+    Project Name: food Project
+    version:1.0
+    author:codebash
+
+
+    Table Of Content
+==============================
+    1.menu part 
+    2.
+
+*/
+
+/* genaral css start*/
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a,
+p,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 0;
+    margin: 0
+}
+
+
+.footer_btn,
+.blog_btn,
+.team_item:hover img,
+.tbl_btn,
+.galery_item_overly i,
+.gallery_item:before,
+.menu_card_top h5,
+.banner_bttm_mid_item,
+.banner_bttm_item i,
+.banner_bttm_item p,
+.banner_bttm_item h2,
+.banner_bttm_item,
+.banner_bttm_item a,
+.banner_content a {
+    transition: .5s;
+    -webkit-transition: .5s;
+    -mz-transition: .5s;
+
+}
+
+/* genaral css end*/
+
+/*common color start*/
+
+.blog_item h2,
+.galery_item_overly i,
+.menu-food span,
+.block-title h4,
+.week h3,
+.common_head h3,
+.common_head span,
+.banner_content span {
+    color: #d90000;
+}
+
+
+
+.footer_btn,
+.blog_btn,
+.tbl_btn,
+.discovery_bottom a,
+.menu_card_top h5,
+.banner_bttm_mid_item,
+.banner_bttm_item:hover,
+.banner_bttm_item a,
+.banner_content a {
+    background-color: #d90000;
+}
+
+.team_item:hover img {
+    border-color: #d90000;
+}
+
+
+/*common color end*/
+
+/*menu section start*/
+
+#menu {}
+
+#mynav ul li a {
+
+    text-transform: uppercase;
+    padding: 25px 20px;
+    font-size: 12px !important;
+    font-weight: 500;
+    color: #000;
+}
+
+.book {
+    padding: 5px 12px;
+    background: #333;
+    color: #fff;
+    font-size: 10px;
+
+    color: #fff;
+}
+
+.book:hover {
+    color: #fff
+}
+
+.drpdwn {
+    margin-bottom: 60px;
+}
+
+.dropdown-menu {
+    text-align: center;
+}
+
+/*menu section end*/
+
+
+/*banner section start*/
+
+.banner_background {
+    background-position: center !important;
+    background-size: cover !important;
+
+}
+
+.banner_content {
+    padding: 200px 0;
+    color: #fff;
+}
+
+.banner_content h4 {
+    font-family: 'Playball', cursive;
+    font-weight: 400
+}
+
+.banner_content h1 {
+    font-size: 75px;
+    font-weight: 600;
+    font-family: 'Prata', serif;
+    margin: 20px 0;
+
+}
+
+
+.banner_content h3 {
+    font-family: 'Prata', serif;
+    margin-bottom: 90px;
+    font-size: 18px;
+}
+
+.banner_content a {
+    padding: 16px 20px;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    text-transform: capitalize;
+
+
+}
+
+.banner_content a:hover {
+    color: #fff;
+    background: #333;
+}
+
+
+
+/*banner section end*/
+/*banner-bottom section start*/
+#banner-bottom {
+    background-position: center !important;
+    background-size: cover !important;
+    position: relative;
+    z-index: 1;
+    padding-bottom: 80px;
+}
+
+#banner-bottom:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(245, 249, 249, .6);
+    z-index: -1;
+}
+
+.common_head {
+    margin-top: 90px;
+}
+
+.common_head h3 {
+    font-family: 'Playball', cursive;
+    margin-bottom: 10px;
+
+}
+
+.common_head h2 {
+    font-size: 40px;
+    font-family: 'Prata',
+        serif;
+    font-weight: 600;
+    color: #333;
+    position: relative;
+
+}
+
+.common_head h2:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-bottom: -30px;
+    height: 3px;
+    width: 80px;
+    z-index: 9;
+    display: block;
+    background: #333;
+}
+
+.common_head p {
+    color: #333;
+    margin: 40px 0;
+}
+
+
+.banner_bttm_item {
+    background: #fff;
+    padding: 40px 30px 40px 30px;
+    box-shadow: 0 .2rem .5rem rgba(0, 0, 0, .1);
+}
+
+.banner_bttm_item i {
+    font-size: 45px;
+    height: 80px;
+    width: 80px;
+    border-top: 3px dashed #333;
+    border-bottom: 3px dashed #333;
+    border-left: 3px dashed #d90000;
+    border-right: 3px dashed #d90000;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 80px;
+}
+
+.banner_bttm_item:hover i {
+    border-left: 3px dashed #fff;
+    border-right: 3px dashed #fff;
+}
+
+.banner_bttm_item h2 {
+    font-size: 20px;
+    font-family: 'Prata', serif;
+    margin: 20px 0;
+    font-weight: 600
+}
+
+.banner_bttm_item:hover h2 {
+    color: #fff;
+}
+
+.banner_bttm_item p {
+    font-family: 'Roboto', sans-serif;
+    margin: 0 20px;
+    font-size: 14px;
+}
+
+.banner_bttm_item:hover p {
+    color: #fff;
+}
+
+
+.banner_bttm_item a {
+    color: #fff;
+    padding: 8px 15px;
+    margin-top: 30px;
+    display: inline-block;
+    border-radius: 4px;
+}
+
+.banner_bttm_item a:hover {
+    background: #333;
+
+}
+
+.banner_bttm_item:hover a {
+    background: #333;
+}
+
+.banner_bttm_mid_item {
+    background: #d90000;
+}
+
+.banner_bttm_mid_item i {
+    border-left: 3px dashed #fff;
+    border-right: 3px dashed #fff;
+}
+
+
+.banner_bttm_mid_item p,
+.banner_bttm_mid_item h2 {
+    color: #fff;
+}
+
+.banner_bttm_mid_item a {
+    background: #333
+}
+
+/*banner-bottom section end*/
+
+/* week special section start*/
+#week_spe {
+    margin-top: 80px;
+    margin-bottom: 40px;
+
+}
+
+.week_special {
+    background-position: top;
+    background-size: cover !important;
+
+    position: relative;
+    z-index: 1;
+}
+
+.week_special:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, .6);
+    z-index: -1;
+}
+
+
+.card_week {
+    box-shadow: 0 .2rem .5rem rgba(0, 0, 0, .3);
+    background: #fff;
+    padding: 40px;
+    margin-top: -20px;
+}
+
+.block-title {
+    margin-bottom: 80px;
+}
+
+.block-title h4 {
+
+    font-family: 'Playball', cursive;
+}
+
+.block-title h2 {
+    font-size: 25px;
+    font-family: 'Prata', serif;
+    font-weight: 600;
+    color: #333;
+    position: relative;
+
+}
+
+.block-title h2:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-bottom: -30px;
+    height: 3px;
+    width: 80px;
+    z-index: 9;
+    display: block;
+    background: #333;
+}
+
+.menu-food {
+    margin-top: 10px;
+    padding: 20px 0;
+
+    border-bottom: 1px solid #ddd
+}
+
+.week_item h2,
+.week_item h4 {
+    display: inline-block;
+
+}
+
+.menu-food a {
+    font-size: 18px;
+    color: #000;
+    font-weight: 500;
+    font-family: 'Prata', sans-serif;
+}
+
+.menu-food p {
+    font-size: 14px;
+}
+
+.cols {
+    border-bottom: 1px dashed #888;
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+
+
+}
+
+/* week special section end*/
+/* discovery_menu section start*/
+
+#discovery_menu {
+    background-position: center !important;
+    background-size: cover !important;
+    margin-top: 80px;
+    padding-bottom: 30px;
+}
+
+
+.discovery_head {
+    margin-top: 90px;
+}
+
+.discovery_head h3 {
+    font-family: 'Playball', cursive;
+    margin-bottom: 10px;
+
+}
+
+.discovery_head h2 {
+    font-size: 40px;
+    font-family: 'Prata', serif;
+    font-weight: 600;
+    color: #fff;
+    position: relative;
+
+}
+
+.discovery_head h2:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-bottom: -30px;
+    height: 3px;
+    width: 80px;
+    z-index: 9;
+    display: block;
+    background: #fff;
+}
+
+.discovery_head p {
+    color: #fff;
+    margin: 40px 0;
+}
+
+.menu_cardd {
+    padding: 50px 0;
+}
+
+.menu_card_top h5 {
+    font-size: 18px;
+    font-weight: 600;
+    height: 40px;
+    width: 100px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    text-align: center;
+    display: inline-block;
+    color: #fff;
+    font-family: 'Playball', cursive;
+
+
+}
+
+.card_weeks:hover h5 {
+    height: 40px;
+    width: 100px;
+    line-height: 50px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    margin: auto
+}
+
+.discovery_bottom a {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 15px 20px;
+    display: inline-block;
+    color: #fff;
+    font-family: 'Playball', cursive;
+    text-align: center;
+}
+
+
+
+/* discovery_menu section end*/
+/* gallery section start*/
+
+.gallery_item {
+    position: relative;
+    margin: 20px 0;
+
+}
+
+.gallery_item:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, .4);
+    opacity: 0;
+
+}
+
+.gallery_item:hover.gallery_item:before {
+    opacity: 1;
+}
+
+.galery_item_overly i {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-top-right-radius: 27px;
+    border-top-left-radius: 27px;
+    border-bottom-left-radius: 27px;
+    height: 60px;
+    width: 60px;
+    font-size: 23px;
+    line-height: 60px;
+    text-align: center;
+    background: #fff;
+    opacity: 0;
+
+
+}
+
+.gallery_item:hover .galery_item_overly i {
+    opacity: 1;
+    top: 50%;
+}
+
+/* gallery section end*/
+/* bookTable section start*/
+#Book_table {
+    background-position: center !important;
+    background-size: cover !important;
+    margin-top: 50px;
+}
+
+.input {
+    height: 50px;
+    width: 100%;
+    padding: 0 10px;
+    margin: 10px 0;
+}
+
+.textarea {
+    width: 100%;
+    padding: 10px 10px;
+    margin: 10px 0;
+    resize: none;
+    height: 130px;
+}
+
+.form_padd {
+    background: #fff;
+    padding: 60px 70px 60px 70px;
+    margin-bottom: 40px;
+}
+
+.tbl_btn {
+    color: #fff;
+    border-radius: 0;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.tbl_btn:hover {
+    color: #fff;
+    background: #333;
+}
+
+
+/* bookTable section end*/
+/* team section start*/
+.team_item img {
+    border-radius: 70%;
+    margin-bottom: 20px;
+    background: #333;
+    border-top: 0px solid #333;
+    border-bottom: 20px solid #333;
+
+}
+
+.team_item:hover img {
+    border-top: 20px solid #d90000;
+    border-bottom: 0px solid #d90000;
+    transform: rotateY(187deg);
+    margin-bottom: 40px;
+}
+
+.team_item h3 {
+    font-family: 'Prata', serif;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.team_item span {
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    color: #888;
+    font-family: 'Prata', serif;
+}
+
+.team {
+    margin: 60px 0;
+}
+
+/* team section end*/
+/* blog section start*/
+.blog_part {
+    margin: 60px 0;
+}
+
+.blog_date {
+    border: 3px solid #333;
+    display: inline-block;
+    padding: 15px;
+}
+
+.blog_date h2 {
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Prata', serif;
+    text-align: center;
+}
+
+.blog_date h3 {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #888;
+    letter-spacing: .1rem;
+    margin: 0;
+}
+
+.blog_item {
+    margin-bottom: 50px;
+}
+
+.blog_item h5 {
+    font-weight: 600;
+    font-family: 'Prata', serif;
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+.blog_item p {
+    font-size: 14px;
+}
+
+.blog_btn {
+    color: #fff;
+    font-size: 14px;
+    padding: 12px 23px;
+    border-radius: 3;
+    margin-top: 20px;
+
+}
+
+.blog_btn:hover {
+    color: #fff;
+    background: #333;
+}
+
+.blog_right {
+    border: 18px solid #f1f1f1;
+
+    padding: 20px;
+}
+
+.blog_right img {
+    border-radius: 50%;
+    width: 160px;
+}
+
+.blog_right .fa-quote-left {
+    font-size: 25px;
+    color: #999;
+}
+
+.blog_right .fa-quote-left {
+    margin: 0 10px;
+}
+
+.blog_right p {
+    margin-top: 30px;
+    position: relative;
+    color: 000;
+    font-size: 16px;
+}
+
+.blog_right p:after {
+    content: '';
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    transform: translate(-50%);
+    background: #333;
+    height: 4px;
+    width: 60px;
+
+
+}
+
+.blog_right h4 {
+    margin-top: 70px;
+    font-size: 18px;
+    font-family: 'Prata', serif;
+    font-weight: 600;
+
+}
+
+
+/* blog section end*/
+/* footer section start*/
+#footer {
+    background: #111;
+    padding: 30px 0;
+}
+
+.footer_left img {
+    margin: 30px 0 10px 0;
+}
+
+.footer_left p {
+    padding: 10px 0;
+    color: #fff;
+    font-size: 14px;
+}
+
+.footer_right h3,
+.footer_mid h3 {
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Prata',serif;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    
+}
+.footer_btn{
+    padding: 12px 23px;
+    font-size: 12px;
+    color:#fff;
+    margin-top: 20px;
+}
+.footer_btn:hover{
+    color:#fff;
+    background: #333;
+}
+
+.footer_right img{
+    width:60px;
+}
+#m_footer{
+    background: #000;
+    color:#fff;
+    font-size: 12px;
+}
+#m_footer p{
+    padding: 15px 0;
+}
+
+
+/* footer section end*/
+
+
+
+
+
+
+font-family: 'Playball',
+cursive;
+font-family: 'Roboto',
+sans-serif;
+font-family: 'Prata',
+serif;
